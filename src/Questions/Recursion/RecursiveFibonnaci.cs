@@ -7,7 +7,7 @@ namespace NetCore.Questions.Recursion
         public void Run()
         {
             AnswerQuestion(3);
-            AnswerQuestion(8);
+            AnswerQuestion(7);
             AnswerQuestion(10);
         }
 
