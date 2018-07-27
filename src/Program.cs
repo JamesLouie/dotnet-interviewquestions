@@ -3,6 +3,8 @@ using NetCore.Questions.Array;
 using NetCore.Questions.Recursion;
 using NetCore.Questions.General;
 using NetCore.Questions.Queues;
+using NetCore.Questions.Strings;
+using NetCore.Questions.Trees;
 using NetCore.Questions;
 using System.Collections.Generic;
 
@@ -31,7 +33,13 @@ namespace NetCore
 
             // Queues
             //questions.Add(new TwoStackQueueQuestion());
-            questions.Add(new NthElementQueue());
+            //questions.Add(new NthElementQueue());
+
+            // Strings
+            //questions.Add(new PalindromeString());
+
+            // Trees
+            questions.Add(new BinarySearchTreeImpl());
 
             foreach(var question in questions)
             {
