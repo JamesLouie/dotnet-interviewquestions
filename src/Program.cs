@@ -37,9 +37,11 @@ namespace NetCore
 
             // Strings
             //questions.Add(new PalindromeString());
+            questions.Add(new FirstRepeatedChar());
 
             // Trees
-            questions.Add(new BinarySearchTreeImpl());
+            //questions.Add(new BinarySearchTreeImpl());
+            //questions.Add(new GenericTreeImpl());
 
             foreach(var question in questions)
             {
